@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const HeaderContainer = styled.div `
-    height: 70px;
+    height: 138px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -10,9 +10,8 @@ export const HeaderContainer = styled.div `
 `;
 
 export const LogoContainer = styled(Link)`
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    height: 138px;
+    width: 100%;
 `;
 
 export const OptionsContainer = styled.div `

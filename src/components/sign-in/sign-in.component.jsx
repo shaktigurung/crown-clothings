@@ -28,7 +28,7 @@ class SignIn extends React.Component {
 
         this.setState({ [name]: value });
     };
-    
+
     render(){
         const { googleSignInStart } = this.props;
         return(
@@ -65,6 +65,6 @@ class SignIn extends React.Component {
 
 const mapDispatchToPros = dispatch => ({
     googleSignInStart: () => dispatch(googleSignInStart()),
-    emailSignInStart: (email, password) => dispatch(emailSignInStart({ email, password} ))
+    emailSignInStart: (email, password) => dispatch(emailSignInStart({ email, password } ))
 })
 export default connect(null, mapDispatchToPros)(SignIn);
